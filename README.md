@@ -1,15 +1,9 @@
 # SICREDI - VOTAÇÃO DE ASSOCIADOS
 
 ## CONSIDERAÇÕES
-	
-	- Para criar as sessões de votação, considerei que poderiam haver mais de uma sessão para a mesma pauta, então, no momento que é enviada a votação,
-	deve ser enviado o id da sessão e não da pauta.
+
 	- Escolhi colocar todas as mensagens em inglês porque facilitaria a comunicação se tivéssemos desenvolvedores trabalhando em outros países.
-	- Embora a tendência seja utilizar a separação dos pacotes por funcionalidades (Package by Feature),
-	decidi usar o layout por camadas (Package by Layers), porque tive que ir entendendo as funcionalidades e adaptando conforme ia desenvolvendo,
-	uma vez que não tinha as histórias escritas e bem definidas.
 	- Utilizei o Swagger para documentar os rest points.
-	- Os testes unitários foram realizados em apenas algumas funcionalidades, por questões de tempo apenas.
 	- Estou usando um banco de dados de teste, o H2, apenas para poder persistir os dados e não precisar realizar nenhuma configuração local
 	- Quanto ao versionamento, acredito que deva ser seguido o padrão semântico. https://semver.org/
 
